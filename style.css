@@ -24,7 +24,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 0.1px solid black;
+  border-bottom: 0.1px solid rgb(209, 209, 209);
   text-align: center;
   font-weight: 600;
   font-size: 2rem;
@@ -41,7 +41,6 @@ nav {
   min-width: 300px;
   display: grid;
   position: relative;
-  grid-template-columns: repeat(5, 1fr);
   gap: 6px;
   min-height: 300px;
   height: 24vw;
@@ -70,8 +69,11 @@ nav {
 
 #answer {
   position: absolute;
-  bottom: -2.5rem;
+  border: 3px solid green;
+  background-color: greenyellow;
+  bottom: -4rem;
   left: 50%;
+  padding: 0.5rem;
   transform: translateX(-50%);
   font-weight: 600;
   color: black;
